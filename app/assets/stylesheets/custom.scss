@@ -179,6 +179,12 @@ input {
   height: auto !important;
 }
 
+.form-check {
+  input[type=checkbox].form-check-input {
+    width: unset;
+  }
+}
+
 #error_explanation {
   color: red;
   ul {
